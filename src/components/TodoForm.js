@@ -18,6 +18,7 @@ const TodoForm = ({addTodo}) => {
         placeholder="What is the task today?"
         value={value}
         onChange={inputChangeHandler}
+        required
       />
 
       <button type="submit" className="todo-btn">
